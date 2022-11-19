@@ -84,5 +84,53 @@ namespace Is_1_20_DenisyukOS
                 ManagerRole(Auth.auth_role);
             }
         }
+        private Form activeForm = null;
+        private void openChildForm(Form childForm)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            guna2Panel1.Controls.Add(childForm);
+            guna2Panel1.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Сlient());
+        }
+
+        private void metroButton2_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Employees());
+        }
+
+        private void metroButton3_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Price());
+        }
+
+        private void metroButton4_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Notice());
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -16,7 +16,8 @@ namespace Is_1_20_DenisyukOS
     public partial class Authh : Form
     {
         // строка подключения к БД
-        string connStr = "server=chuc.caseum.ru;port=33333;user=st_1_20_12;database=is_1_20_st12_KURS;password=27225069;";
+        string connStr = "server=10.90.12.110;port=33333;user=st_1_20_12;database=is_1_20_st12_KURS;password=27225069;";
+        //string connStr = "server=chuc.caseum.ru;port=33333;user=st_1_20_12;database=is_1_20_st12_KURS;password=27225069;";
         //Переменная соединения
         MySqlConnection conn;
         //Логин и пароль к данной форме Вы сможете посмотреть в БД db_test таблице t_user

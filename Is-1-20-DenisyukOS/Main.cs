@@ -102,35 +102,34 @@ namespace Is_1_20_DenisyukOS
         {
 
         }
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
 
-        private void metroButton1_Click(object sender, EventArgs e)
+        }
+
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
             openChildForm(new Сlient());
         }
 
-        private void metroButton2_Click(object sender, EventArgs e)
+        private void guna2GradientButton2_Click(object sender, EventArgs e)
         {
             openChildForm(new Employees());
         }
 
-        private void metroButton3_Click(object sender, EventArgs e)
+        private void guna2GradientButton3_Click(object sender, EventArgs e)
         {
             openChildForm(new Price());
         }
 
-        private void metroButton4_Click(object sender, EventArgs e)
+        private void guna2GradientButton4_Click(object sender, EventArgs e)
         {
             openChildForm(new Notice());
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private void guna2GradientButton5_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

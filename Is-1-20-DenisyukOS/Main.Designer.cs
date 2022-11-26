@@ -44,6 +44,7 @@
             this.guna2GradientButton3 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton5 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -229,12 +230,27 @@
             this.guna2GradientButton5.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.guna2GradientButton5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2GradientButton5.ForeColor = System.Drawing.Color.Black;
-            this.guna2GradientButton5.Location = new System.Drawing.Point(662, 599);
+            this.guna2GradientButton5.Location = new System.Drawing.Point(691, 611);
             this.guna2GradientButton5.Name = "guna2GradientButton5";
-            this.guna2GradientButton5.Size = new System.Drawing.Size(99, 45);
+            this.guna2GradientButton5.Size = new System.Drawing.Size(70, 33);
             this.guna2GradientButton5.TabIndex = 47;
             this.guna2GradientButton5.Text = "Выход";
             this.guna2GradientButton5.Click += new System.EventHandler(this.guna2GradientButton5_Click);
+            // 
+            // guna2ControlBox1
+            // 
+            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox1.BackColor = System.Drawing.Color.White;
+            this.guna2ControlBox1.BorderRadius = 10;
+            this.guna2ControlBox1.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            this.guna2ControlBox1.CustomIconSize = 30F;
+            this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.guna2ControlBox1.ForeColor = System.Drawing.Color.Black;
+            this.guna2ControlBox1.IconColor = System.Drawing.Color.Black;
+            this.guna2ControlBox1.Location = new System.Drawing.Point(617, 611);
+            this.guna2ControlBox1.Name = "guna2ControlBox1";
+            this.guna2ControlBox1.Size = new System.Drawing.Size(68, 33);
+            this.guna2ControlBox1.TabIndex = 48;
             // 
             // Main
             // 
@@ -242,6 +258,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(773, 656);
+            this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.guna2GradientButton5);
             this.Controls.Add(this.guna2GradientButton4);
             this.Controls.Add(this.guna2GradientButton3);
@@ -281,5 +298,6 @@
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton3;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton2;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
     }
 }

@@ -150,5 +150,10 @@ namespace Is_1_20_DenisyukOS
             //Показываем заголовки столбцов
             guna2DataGridView1.ColumnHeadersVisible = true;
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            reload_list();
+        }
     }
 }

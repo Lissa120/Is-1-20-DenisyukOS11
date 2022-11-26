@@ -119,6 +119,7 @@ namespace Is_1_20_DenisyukOS
             this.guna2Button1.Size = new System.Drawing.Size(106, 45);
             this.guna2Button1.TabIndex = 2;
             this.guna2Button1.Text = "guna2Button1";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2Button2
             // 

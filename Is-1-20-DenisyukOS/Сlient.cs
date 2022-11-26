@@ -102,23 +102,11 @@ namespace Is_1_20_DenisyukOS
             conn = new MySqlConnection(connStr);
             //Вызываем метод для заполнение дата Грида
             GetListUsers();
-            //Видимость полей в гриде
-            guna2DataGridView1.Columns[0].Visible = true;
-            guna2DataGridView1.Columns[1].Visible = true;
+        }
 
-            //Ширина полей
-            guna2DataGridView1.Columns[0].FillWeight = 15;
-            guna2DataGridView1.Columns[1].FillWeight = 40;
-            //Режим для полей "Только для чтения"
-            guna2DataGridView1.Columns[0].ReadOnly = true;
-            guna2DataGridView1.Columns[1].ReadOnly = true;
-            //Растягивание полей грида
-            guna2DataGridView1.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            guna2DataGridView1.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            //Убираем заголовки строк
-            guna2DataGridView1.RowHeadersVisible = false;
-            //Показываем заголовки столбцов
-            guna2DataGridView1.ColumnHeadersVisible = true;
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            reload_list();
         }
     }
 }
